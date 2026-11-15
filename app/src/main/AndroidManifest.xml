@@ -9,8 +9,8 @@
         android:theme="@style/Theme.Activity">
         <activity
             android:name=".LoginActivity"
-            android:windowSoftInputMode="adjustResize"
-            android:screenOrientation="portrait">
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,8 +20,8 @@
 
         <activity
             android:name=".SecretActivity"
-            android:screenOrientation="portrait"
-            android:exported="false"/>
+            android:exported="false"
+            android:theme="@style/Theme.Activity.Secret" />
     </application>
 
 </manifest>
