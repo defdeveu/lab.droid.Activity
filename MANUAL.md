@@ -23,7 +23,7 @@ adb shell am start -n defdev.labdroid.activity/.LoginActivity
 ```
 
 Launch **Activity Lab** and follow the trainer's exercise instructions.
-Use the numbered rail to select **Challenge** or **Solution**. Each case keeps
+Use the C/S rail to select **Challenge** or **Solution**. Each case keeps
 its own form input. After opening the full-screen image, Back returns to the
 selected case with an empty form; another reveal requires a fresh login.
 If Android displays its first-use full-screen message, dismiss it with **Got it**.

@@ -3,7 +3,7 @@
     <application>
         <activity
             android:name="defdev.labdroid.activity.flows.solution.SecretActivity"
-            android:exported="false"
+            android:exported="true"
             android:theme="@style/Theme.Activity.Secret" />
     </application>
 </manifest>

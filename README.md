@@ -3,7 +3,7 @@
 Android teaching app for the "Development security in Android" course.
 The trainer provides the exercise instructions and expected outcomes.
 The maintained `main` includes **Challenge** and **Solution**, selected through
-the numbered navigation rail.
+the C/S navigation rail.
 
 ## Requirements
 

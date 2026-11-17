@@ -1,5 +1,12 @@
 package defdev.labdroid.activity.flows.challenge
 
-import defdev.labdroid.activity.content.SecretImageActivity
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import defdev.labdroid.activity.content.showSecretImage
 
-class SecretActivity : SecretImageActivity()
+class SecretActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        showSecretImage()
+    }
+}

@@ -17,4 +17,5 @@ tasks.withType<JavaCompile>().configureEach { options.compilerArgs.add("-Werror"
 
 dependencies {
     api(project(":shared:content"))
+    implementation(libs.androidx.lifecycle.viewmodel)
 }
