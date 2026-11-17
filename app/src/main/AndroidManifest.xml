@@ -18,10 +18,6 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".SecretActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Activity.Secret" />
     </application>
 
 </manifest>

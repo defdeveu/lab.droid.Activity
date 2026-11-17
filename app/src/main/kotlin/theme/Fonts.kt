@@ -8,7 +8,6 @@ import androidx.compose.ui.text.font.FontWeight
 import defdev.labdroid.activity.R
 
 val LabSans = variableFontFamily(R.font.noto_sans_variable, 400, 500, 700)
-val LabMono = variableFontFamily(R.font.noto_sans_mono_variable, 400)
 val LabTitle = variableFontFamily(R.font.noto_serif_display_variable, 875)
 
 private fun variableFontFamily(@FontRes resource: Int, vararg weights: Int): FontFamily =

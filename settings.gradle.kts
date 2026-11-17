@@ -19,3 +19,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "lab.droid.Activity"
 include(":app")
+include(":flows:challenge", ":flows:solution", ":shared:content")

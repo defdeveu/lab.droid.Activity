@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Activity Lab</string>
+    <string name="flow_challenge_title">Challenge</string>
+    <string name="flow_solution_title">Solution</string>
+    <string name="flow_challenge_marker">C</string>
+    <string name="flow_solution_marker">S</string>
+    <string name="case_navigation">Case %1$d: %2$s</string>
     <string name="please_log_in_and_find_batman_s_secret">Please log in and find BATMAN\'s secret</string>
     <string name="username">Username</string>
     <string name="password">Password</string>

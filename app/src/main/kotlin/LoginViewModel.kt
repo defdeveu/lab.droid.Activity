@@ -39,4 +39,8 @@ class LoginViewModel(private val service: LoginService) : ViewModel() {
             )
         }
     }
+
+    fun contentOpened() {
+        state.value = LoginUiState()
+    }
 }

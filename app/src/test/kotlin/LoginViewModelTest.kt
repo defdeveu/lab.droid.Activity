@@ -61,4 +61,14 @@ class LoginViewModelTest {
         model.onPasswordChange("another")
         assertNull(model.uiState.value.error)
     }
+
+    @Test fun openingContentConsumesCompletionAndClearsForm() {
+        val model = LoginViewModel(Service(true))
+        model.onUsernameChange("user")
+        model.onPasswordChange("password")
+        model.login()
+        model.contentOpened()
+        assertEquals(LoginUiState(), model.uiState.value)
+        assertFalse(model.uiState.value.canSubmit)
+    }
 }

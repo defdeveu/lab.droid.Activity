@@ -1,4 +1,4 @@
-package defdev.labdroid.activity
+package defdev.labdroid.activity.content
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -16,7 +16,7 @@ import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 
-class SecretActivity : ComponentActivity() {
+abstract class SecretImageActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

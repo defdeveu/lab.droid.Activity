@@ -1,6 +1,6 @@
 # Activity lab — run steps
 
-Use the branch supplied by the trainer. Open this directory as the Gradle project.
+Open this directory as the Gradle project. The maintained `main` contains both cases.
 
 ## Setup and build
 
@@ -23,6 +23,10 @@ adb shell am start -n defdev.labdroid.activity/.LoginActivity
 ```
 
 Launch **Activity Lab** and follow the trainer's exercise instructions.
+Use the numbered rail to select **Challenge** or **Solution**. Each case keeps
+its own form input. After opening the full-screen image, Back returns to the
+selected case with an empty form; another reveal requires a fresh login.
 If Android displays its first-use full-screen message, dismiss it with **Got it**.
-Switching source branches does not replace the installed build: sync, rebuild
-and reinstall the selected branch before using it.
+
+Sync after changing build configuration, then rebuild and reinstall before
+running the updated app.

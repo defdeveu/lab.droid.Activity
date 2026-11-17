@@ -7,9 +7,4 @@
         <item name="android:windowDisablePreview">true</item>
     </style>
     <style name="Theme.Activity" parent="Theme.Activity.Base" />
-    <style name="Theme.Activity.Secret" parent="Theme.Activity.Base">
-        <item name="android:windowBackground">#000000</item>
-        <item name="android:windowLightStatusBar">false</item>
-        <item name="android:windowLightNavigationBar">false</item>
-    </style>
 </resources>

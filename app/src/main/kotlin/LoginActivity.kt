@@ -7,9 +7,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.lifecycle.viewmodel.compose.viewModel
 import defdev.labdroid.activity.theme.ActivityLabTheme
-import defdev.labdroid.activity.ui.LoginScreen
+import defdev.labdroid.activity.flows.FlowId
 
 class LoginActivity : ComponentActivity() {
     private val container by lazy { AppContainer() }
@@ -22,10 +21,12 @@ class LoginActivity : ComponentActivity() {
         )
         setContent {
             ActivityLabTheme {
-                val model: LoginViewModel = viewModel(factory = container.viewModelFactory)
-                LoginScreen(model) {
-                    startActivity(Intent(this, SecretActivity::class.java))
-                    finish()
+                ActivityApp(container) { selected ->
+                    val target = when (selected) {
+                        FlowId.CHALLENGE -> defdev.labdroid.activity.flows.challenge.SecretActivity::class.java
+                        FlowId.SOLUTION -> defdev.labdroid.activity.flows.solution.SecretActivity::class.java
+                    }
+                    startActivity(Intent(this, target))
                 }
             }
         }

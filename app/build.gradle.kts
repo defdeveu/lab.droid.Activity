@@ -32,8 +32,11 @@ kotlin { compilerOptions { allWarningsAsErrors.set(true) } }
 tasks.withType<JavaCompile>().configureEach { options.compilerArgs.add("-Werror") }
 
 dependencies {
+    implementation(project(":flows:challenge"))
+    implementation(project(":flows:solution"))
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.compose.ui)
+    implementation(libs.androidx.compose.animation)
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.activity.compose)
