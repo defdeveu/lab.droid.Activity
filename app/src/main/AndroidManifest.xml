@@ -20,7 +20,7 @@
 
         <activity
             android:name=".SecretActivity"
-            android:exported="false"
+            android:exported="true"
             android:theme="@style/Theme.Activity.Secret" />
     </application>
 
