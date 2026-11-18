@@ -22,7 +22,7 @@ Open this directory in Android Studio, sync and run the app, or use:
 adb install -r app/build/outputs/apk/debug/app-debug.apk
 ```
 
-See [MANUAL.md](MANUAL.md) for the workspace run procedure.
+The maintained branch is `main`. See [MANUAL.md](MANUAL.md) for the project run steps.
 
 ## Tests
 
