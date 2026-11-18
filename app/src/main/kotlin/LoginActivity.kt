@@ -1,4 +1,4 @@
-package defdev.labdroid.activity
+package defdev.labs.droid.activity
 
 import android.content.Intent
 import android.graphics.Color
@@ -8,8 +8,8 @@ import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.lifecycle.viewmodel.compose.viewModel
-import defdev.labdroid.activity.theme.ActivityLabTheme
-import defdev.labdroid.activity.ui.LoginScreen
+import defdev.labs.droid.activity.theme.ActivityLabTheme
+import defdev.labs.droid.activity.ui.LoginScreen
 
 class LoginActivity : ComponentActivity() {
     private val container by lazy { AppContainer() }

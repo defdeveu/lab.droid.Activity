@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "defdev.labdroid.activity"
+    namespace = "defdev.labs.droid.activity"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "defdev.labdroid.activity"
+        applicationId = "defdev.labs.droid.activity"
         minSdk = 30
-        targetSdk = 35
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -22,8 +22,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_25
+        targetCompatibility = JavaVersion.VERSION_25
     }
     buildFeatures { compose = true }
 }

@@ -1,8 +1,8 @@
-package defdev.labdroid.activity
+package defdev.labs.droid.activity
 
 import androidx.lifecycle.ViewModel
-import defdev.labdroid.activity.error.LabError
-import defdev.labdroid.activity.service.LoginService
+import defdev.labs.droid.activity.error.LabError
+import defdev.labs.droid.activity.service.LoginService
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update

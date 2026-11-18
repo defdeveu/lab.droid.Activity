@@ -1,4 +1,4 @@
-package defdev.labdroid.activity.theme
+package defdev.labs.droid.activity.theme
 
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.ui.graphics.Color

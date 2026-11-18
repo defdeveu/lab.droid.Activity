@@ -1,4 +1,4 @@
-package defdev.labdroid.activity.ui
+package defdev.labs.droid.activity.ui
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -18,8 +18,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import defdev.labdroid.activity.R
-import defdev.labdroid.activity.theme.LabTitle
+import defdev.labs.droid.activity.R
+import defdev.labs.droid.activity.theme.LabTitle
 
 @Composable
 fun LabHeader() {

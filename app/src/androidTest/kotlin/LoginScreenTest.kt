@@ -1,4 +1,4 @@
-package defdev.labdroid.activity
+package defdev.labs.droid.activity
 
 import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.assertIsEnabled

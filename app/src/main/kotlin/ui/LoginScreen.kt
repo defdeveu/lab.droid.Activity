@@ -1,4 +1,4 @@
-package defdev.labdroid.activity.ui
+package defdev.labs.droid.activity.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -26,8 +26,8 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import defdev.labdroid.activity.LoginViewModel
-import defdev.labdroid.activity.R
+import defdev.labs.droid.activity.LoginViewModel
+import defdev.labs.droid.activity.R
 
 @Composable
 fun LoginScreen(model: LoginViewModel, onAuthenticated: () -> Unit) {

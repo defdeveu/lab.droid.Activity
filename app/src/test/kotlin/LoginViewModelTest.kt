@@ -1,7 +1,7 @@
-package defdev.labdroid.activity
+package defdev.labs.droid.activity
 
-import defdev.labdroid.activity.error.LabError
-import defdev.labdroid.activity.service.LoginService
+import defdev.labs.droid.activity.error.LabError
+import defdev.labs.droid.activity.service.LoginService
 import org.junit.Assert.*
 import org.junit.Test
 

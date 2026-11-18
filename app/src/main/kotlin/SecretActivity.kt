@@ -1,4 +1,4 @@
-package defdev.labdroid.activity
+package defdev.labs.droid.activity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

@@ -1,4 +1,4 @@
-package defdev.labdroid.activity.service
+package defdev.labs.droid.activity.service
 
 interface LoginService {
     fun authenticate(username: String, password: String): Boolean
